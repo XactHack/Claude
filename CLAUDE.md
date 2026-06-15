@@ -16,7 +16,7 @@ Reference material and context that informs how Claude should think and respond.
 Reusable, task-specific instructions Claude can follow to perform recurring work consistently.
 
 - **`Skills/skill.md`** — Template for new skills. Copy this file, rename it, and fill in the sections (purpose, triggers, instructions, inputs, output) when defining a new skill.
-- **`.claude/skills/`** — Invocable Claude Code skills (slash commands), e.g. `/ingest-resource` for capturing external resources (articles, videos, files, transcripts, notes) into `Knowledge/`.
+- **`.claude/skills/`** — Invocable Claude Code skills (slash commands), e.g. `/ingest-resource` for capturing external resources (articles, videos, files, transcripts, notes) into `Knowledge/`, and `/improve-system` for reviewing a session and updating the OS based on it.
 
 ### `projects/`
 Active and archived work. Each project should live in its own subfolder with its own files, notes, and deliverables. Create a new subfolder per project as work begins.
